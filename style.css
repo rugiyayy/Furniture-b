@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+ .row1, .row2, .row3 .col-4 {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.row1 .col-4:nth-child(2){
+    background-color: rgb(242, 242, 252);
+}
+
+.row1 .col-4:nth-child(3) {
+    background-image: url(photos/716033_e99b8548-2ee9-42a2-aee9-f6e9cd0c4d07_709_709.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.row2 .col-4 h1{
+    font-size: 80px;
+}
+#details .info{
+    border-bottom: 1px solid  rgb(207, 207, 207);
+}
